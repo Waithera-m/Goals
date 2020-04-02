@@ -1,0 +1,13 @@
+.containerDeux {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url("https://bit.ly/39yfhjd");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(66, 62, 62);
+  height: 800px;
+  font-size: larger;
+}

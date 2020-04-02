@@ -8,6 +8,7 @@ import { Goal } from '../goal';
 })
 export class GoalComponent implements OnInit {
 
+  //
   goals:Goal [] = [
     new Goal(1, 'Watch Finding Nemo', 'Find where the film is streaming and find out if Merlin finds his son', new Date(2020,2,25)),
     new Goal(2, 'Pull fewer that 1000 hairs', 'Meditation here we come', new Date(2020,2,26)),
