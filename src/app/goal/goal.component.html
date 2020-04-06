@@ -1,6 +1,17 @@
 <div class="container" [ngStyle]="{'background-color':'transparent'}">
+  <ng-progress></ng-progress>
   <h1 [ngStyle]="{'text-align':'center'}">My Goals</h1>
   <hr>
+  <div class="row">
+    <div class="col-md-12">
+      
+      <blockquote class="blockquote text-center">
+        <p class="mb-0">{{quote.quote}}</p>
+        <footer class="blockquote-footer"><cite>{{quote.author}}</cite></footer>
+      </blockquote>
+     
+    </div>
+  </div>
   <div class="row">
     <div class="col-md-6">
       <div *ngFor='let goal of goals;let i = index'>
@@ -21,4 +32,5 @@
     </div>
   </div>
   <h6><p *ngIf='goals.length > 1'>We are past the ambitious lies</p></h6>
+  
 </div>
